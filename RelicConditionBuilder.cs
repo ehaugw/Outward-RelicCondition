@@ -31,7 +31,7 @@ namespace RelicKeeper
             {
                 TinyHelper.TinyHelper.OnDescriptionModified += delegate (Item item, ref string existingDescription)
                 {
-                    if (SkillRequirements.SafeHasSkillKnowledge(item?.OwnerCharacter, IDs.relicLoreID) && (requiredItem == 0 || requiredItem == item.ItemID) && (requiredEnchant == 0 || (item is Equipment equipment && equipment.ActiveEnchantmentIDs.Contains(requiredEnchant))))
+                    if (SkillRequirements.SafeHasSkillKnowledge(item?.OwnerCharacter, IDs.relicFundamentalsID) && (requiredItem == 0 || requiredItem == item.ItemID) && (requiredEnchant == 0 || (item is Equipment equipment && equipment.ActiveEnchantmentIDs.Contains(requiredEnchant))))
                     {
                         if ((existingDescription ?? "") != "")
                         {

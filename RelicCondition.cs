@@ -10,7 +10,7 @@
     public class RelicCondition : BaseUnityPlugin
     {
         public const string GUID = "com.ehaugw.reliccondition";
-        public const string VERSION = "1.0.1";
+        public const string VERSION = "1.0.2";
         public const string NAME = "RelicCondition";
 
         internal void Awake()
