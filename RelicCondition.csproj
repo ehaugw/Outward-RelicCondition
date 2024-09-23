@@ -39,6 +39,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="RelicCondition.cs" />
+    <Compile Include="RelicConditionBuilder.cs" />
     <Compile Include="SourceConditionRelicLevel.cs" />
   </ItemGroup>
   <ItemGroup>
