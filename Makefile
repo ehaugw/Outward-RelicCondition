@@ -1,6 +1,6 @@
 include Makefile.helpers
 modname = RelicCondition
-dependencies =
+dependencies = TinyHelper
 
 publish:
 	echo "can't publish standalone dll"
