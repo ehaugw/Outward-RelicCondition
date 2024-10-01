@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 using TinyHelper;
 using UnityEngine;
 
-namespace RelicKeeper
+namespace RelicCondition
 {
     public class RelicConditionBuilder
     {

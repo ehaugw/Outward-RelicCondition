@@ -1,7 +1,7 @@
 ﻿using System.Linq;
 using EffectSourceConditions;
 
-namespace RelicKeeper
+namespace RelicCondition
 {
 
     public class SourceConditionRelicLevel : SourceCondition
