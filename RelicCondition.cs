@@ -9,8 +9,11 @@
     public class RelicCondition : BaseUnityPlugin
     {
         public const string GUID = "com.ehaugw.reliccondition";
-        public const string VERSION = "1.1.0";
+        public const string VERSION = "1.1.1";
         public const string NAME = "RelicCondition";
+
+        public const string RelicLoreLevel1Name = "Relic Lore";
+        public const string RelicLoreLevel2Name = "Mythic Lore";
 
         internal void Awake()
         {

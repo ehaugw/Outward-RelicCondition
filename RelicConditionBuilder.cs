@@ -37,7 +37,17 @@ namespace RelicCondition
                         {
                             existingDescription += "\n\n";
                         }
-                        existingDescription += skill.Name + ": " + description;
+                        var requirementString = "";
+                        switch (relicLevel)
+                        {
+                            case 1:
+                                requirementString = " (" + RelicCondition.RelicLoreLevel1Name + ")";
+                                break;
+                            case 2:
+                                requirementString = " (" + RelicCondition.RelicLoreLevel2Name + ")";
+                                break;
+                        }
+                        existingDescription += skill.Name + requirementString + ": " + description;
                     }
                 };
             }
